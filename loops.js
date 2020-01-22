@@ -16,7 +16,8 @@ const instructors = [
 const nameLoop = () => {
     let domName='';
     for(let i = 0; i < instructors.length; i++)
-    domName += `<h2>${instructors[i].first} ${instructors[i].last},</h2>`;
+    domName += `<h2>${instructors[i].first} 
+    ${instructors[i].last},</h2>`;
 console.log(domName);    
 };
 nameLoop();
